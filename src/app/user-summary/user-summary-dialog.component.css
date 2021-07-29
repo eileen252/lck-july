@@ -1,0 +1,16 @@
+.user-card  {
+  min-width: 500px;
+  min-height: 500px;
+}
+
+.profile {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.art-link {
+  height: 300px;
+  width: 300px;
+}

@@ -1,0 +1,18 @@
+<div class="user-card">
+  <div fxLayout="column" fxLayoutGap="30px">
+    <div fxLayout="row" fxLayoutGap="30px">
+      <img class="profile" src="{{currentUser.profile}}">
+      <h1>{{currentUser.name}}</h1>
+
+    </div>
+    WHAT DO I PUT HERE
+
+    <div fxLayout="row wrap" fxLayoutAlign="space-evenly center" fxLayoutGap="15px">
+      <ng-container *ngFor="let art of currentUser.artWorks">
+        <a href="{{art.link}}"><img class="art-link" src="{{art.image}}"></a>
+      </ng-container>
+    </div>
+
+
+  </div>
+</div>
